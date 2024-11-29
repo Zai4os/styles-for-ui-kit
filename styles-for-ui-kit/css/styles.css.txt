@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Общие стили */
+body {
+  background-color: #F5F5F5;
+  color: #333333;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #317033;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: #D9D9D9;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Inria Sans', serif;
+}
+
+.button:hover {
+  background-color: #43A047; /* darken(#4CAF50, 10%) */
+}
