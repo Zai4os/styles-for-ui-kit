@@ -1,0 +1,13 @@
+// _variables.scss
+
+// ײגועא
+$color-green: #4CAF50;
+$color-dark-green: #317033;
+$color-dark: #333333;
+$color-light-gray: #D9D9D9;
+$color-lighter-gray: #F5F5F5;
+$color-black: #000000;
+
+// ״נטפעû
+$font-inter: 'Inter', sans-serif;
+$font-inria-sans: 'Inria Sans', serif;

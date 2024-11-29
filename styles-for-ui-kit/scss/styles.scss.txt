@@ -1,0 +1,31 @@
+// styles.scss
+
+@import 'variables';
+@import 'mixins';
+
+// Общие стили
+body {
+  background-color: $color-lighter-gray;
+  color: $color-dark;
+  @include font($font-inter);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-dark-green;
+}
+
+.button {
+  background-color: $color-green;
+  color: $color-light-gray;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  @include font($font-inria-sans);
+  
+  &:hover {
+    background-color: darken($color-green, 10%);
+  }
+}
